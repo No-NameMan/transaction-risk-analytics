@@ -1,0 +1,801 @@
+user_id,signup_date,age,city,segment,risk_profile
+U00001,2025-09-16,41,Nizhny Novgorod,student,low
+U00002,2024-01-29,42,Kazan,mass,high
+U00003,2024-05-12,39,Moscow,mass,high
+U00004,2024-11-16,19,Nizhny Novgorod,mass,medium
+U00005,2024-11-21,18,Saint Petersburg,affluent,low
+U00006,2023-11-17,37,Saint Petersburg,mass,low
+U00007,2025-09-19,30,Nizhny Novgorod,mass,medium
+U00008,2024-04-05,42,Moscow,mass,medium
+U00009,2025-06-10,44,Moscow,student,low
+U00010,2025-09-12,38,Kazan,mass,low
+U00011,2024-08-31,45,Moscow,mass,low
+U00012,2023-08-07,39,Novosibirsk,mass,medium
+U00013,2024-03-02,42,Moscow,student,low
+U00014,2024-02-09,28,Moscow,affluent,low
+U00015,2024-03-18,34,Moscow,small_business,low
+U00016,2024-01-19,38,Saint Petersburg,student,low
+U00017,2024-09-12,46,Moscow,mass,low
+U00018,2025-08-13,31,Moscow,affluent,low
+U00019,2023-12-03,42,Ekaterinburg,mass,medium
+U00020,2024-11-06,33,Moscow,affluent,low
+U00021,2024-09-23,35,Saint Petersburg,mass,low
+U00022,2025-01-14,46,Moscow,small_business,low
+U00023,2025-06-27,18,Saint Petersburg,small_business,low
+U00024,2023-09-18,20,Moscow,student,low
+U00025,2024-01-23,18,Kazan,mass,low
+U00026,2024-05-21,18,Moscow,mass,low
+U00027,2024-12-17,28,Ekaterinburg,student,medium
+U00028,2023-12-18,45,Nizhny Novgorod,mass,low
+U00029,2024-08-15,33,Moscow,small_business,low
+U00030,2024-11-12,38,Moscow,student,low
+U00031,2024-11-06,49,Moscow,mass,medium
+U00032,2025-05-19,52,Kazan,affluent,low
+U00033,2025-09-13,35,Moscow,mass,medium
+U00034,2024-08-07,52,Ekaterinburg,mass,medium
+U00035,2023-10-22,37,Novosibirsk,small_business,low
+U00036,2025-10-08,26,Ekaterinburg,mass,low
+U00037,2023-11-17,29,Saint Petersburg,student,medium
+U00038,2023-12-13,18,Nizhny Novgorod,student,low
+U00039,2025-04-06,25,Moscow,small_business,low
+U00040,2024-06-01,32,Saint Petersburg,mass,low
+U00041,2025-07-12,46,Moscow,mass,low
+U00042,2024-02-12,57,Nizhny Novgorod,student,low
+U00043,2024-04-02,19,Kazan,mass,low
+U00044,2025-01-28,41,Ekaterinburg,small_business,low
+U00045,2025-10-04,24,Moscow,mass,low
+U00046,2023-08-11,42,Nizhny Novgorod,small_business,low
+U00047,2024-11-10,34,Saint Petersburg,mass,medium
+U00048,2023-10-17,18,Saint Petersburg,mass,low
+U00049,2024-04-22,47,Nizhny Novgorod,affluent,low
+U00050,2024-01-25,29,Saint Petersburg,mass,low
+U00051,2024-02-10,30,Saint Petersburg,mass,low
+U00052,2025-06-16,23,Kazan,affluent,low
+U00053,2025-01-20,28,Moscow,mass,low
+U00054,2024-10-22,41,Moscow,mass,low
+U00055,2024-09-25,34,Moscow,small_business,low
+U00056,2025-10-25,40,Moscow,mass,low
+U00057,2024-08-14,40,Ekaterinburg,mass,low
+U00058,2025-07-21,52,Kazan,student,low
+U00059,2024-02-25,32,Saint Petersburg,mass,low
+U00060,2024-04-17,18,Saint Petersburg,mass,low
+U00061,2023-09-22,49,Saint Petersburg,mass,low
+U00062,2024-02-24,32,Kazan,mass,low
+U00063,2025-01-18,49,Nizhny Novgorod,mass,low
+U00064,2023-08-14,41,Nizhny Novgorod,mass,low
+U00065,2024-12-10,34,Saint Petersburg,mass,low
+U00066,2025-02-22,40,Moscow,mass,high
+U00067,2023-10-07,59,Saint Petersburg,mass,low
+U00068,2025-01-14,61,Kazan,mass,low
+U00069,2025-09-27,37,Saint Petersburg,mass,low
+U00070,2024-10-20,38,Kazan,affluent,high
+U00071,2024-01-10,49,Kazan,mass,low
+U00072,2025-06-21,26,Moscow,mass,low
+U00073,2024-10-26,40,Moscow,affluent,high
+U00074,2025-08-11,36,Saint Petersburg,mass,low
+U00075,2024-04-14,40,Moscow,student,high
+U00076,2024-10-15,26,Moscow,mass,low
+U00077,2025-02-18,18,Novosibirsk,student,low
+U00078,2025-05-19,18,Saint Petersburg,mass,low
+U00079,2024-07-29,23,Moscow,mass,low
+U00080,2024-04-29,30,Kazan,student,medium
+U00081,2023-09-06,32,Novosibirsk,affluent,low
+U00082,2024-11-17,59,Moscow,small_business,high
+U00083,2025-07-16,49,Ekaterinburg,mass,low
+U00084,2023-12-09,24,Nizhny Novgorod,mass,low
+U00085,2024-06-03,40,Kazan,mass,high
+U00086,2024-04-02,31,Kazan,small_business,low
+U00087,2025-09-09,33,Moscow,mass,medium
+U00088,2025-03-06,38,Nizhny Novgorod,student,low
+U00089,2024-02-03,43,Saint Petersburg,mass,low
+U00090,2023-12-09,32,Nizhny Novgorod,mass,low
+U00091,2024-11-19,49,Kazan,student,low
+U00092,2024-01-02,22,Moscow,mass,low
+U00093,2023-12-01,36,Moscow,student,low
+U00094,2024-12-30,67,Novosibirsk,small_business,low
+U00095,2023-10-13,39,Kazan,mass,low
+U00096,2025-03-27,53,Moscow,student,medium
+U00097,2025-05-08,37,Novosibirsk,student,low
+U00098,2024-04-18,43,Ekaterinburg,mass,low
+U00099,2024-05-28,35,Saint Petersburg,mass,high
+U00100,2025-08-03,34,Saint Petersburg,student,low
+U00101,2023-12-09,27,Moscow,mass,low
+U00102,2025-06-12,41,Ekaterinburg,mass,low
+U00103,2024-01-02,26,Moscow,mass,low
+U00104,2025-11-26,44,Ekaterinburg,mass,low
+U00105,2024-01-09,49,Saint Petersburg,mass,low
+U00106,2024-01-18,40,Kazan,mass,low
+U00107,2024-01-24,33,Moscow,student,low
+U00108,2024-05-03,41,Moscow,student,low
+U00109,2024-10-18,32,Novosibirsk,mass,low
+U00110,2024-03-29,47,Saint Petersburg,mass,low
+U00111,2025-04-05,18,Saint Petersburg,small_business,low
+U00112,2024-01-23,32,Nizhny Novgorod,small_business,medium
+U00113,2024-08-06,18,Nizhny Novgorod,mass,low
+U00114,2024-10-29,18,Ekaterinburg,mass,low
+U00115,2024-09-19,52,Moscow,mass,low
+U00116,2024-07-26,47,Kazan,affluent,low
+U00117,2025-10-31,27,Ekaterinburg,affluent,low
+U00118,2025-08-03,18,Saint Petersburg,affluent,low
+U00119,2025-05-03,18,Moscow,affluent,high
+U00120,2025-08-25,29,Ekaterinburg,mass,low
+U00121,2024-11-15,65,Saint Petersburg,affluent,medium
+U00122,2024-04-30,41,Kazan,affluent,low
+U00123,2024-05-12,29,Nizhny Novgorod,mass,low
+U00124,2024-10-19,42,Kazan,small_business,low
+U00125,2023-11-20,18,Saint Petersburg,student,low
+U00126,2024-07-29,32,Saint Petersburg,small_business,medium
+U00127,2025-09-25,37,Saint Petersburg,affluent,high
+U00128,2024-02-06,35,Moscow,student,medium
+U00129,2024-07-21,45,Ekaterinburg,mass,low
+U00130,2024-05-29,40,Ekaterinburg,student,medium
+U00131,2024-07-29,44,Moscow,affluent,low
+U00132,2024-08-08,28,Moscow,affluent,medium
+U00133,2025-09-15,47,Ekaterinburg,mass,low
+U00134,2024-08-03,56,Moscow,affluent,low
+U00135,2024-01-11,24,Saint Petersburg,student,low
+U00136,2025-03-13,25,Saint Petersburg,mass,low
+U00137,2024-06-26,52,Novosibirsk,mass,low
+U00138,2025-11-06,34,Moscow,student,medium
+U00139,2025-02-03,53,Kazan,mass,medium
+U00140,2024-11-18,31,Saint Petersburg,mass,high
+U00141,2023-08-01,53,Kazan,mass,low
+U00142,2025-05-30,38,Moscow,mass,low
+U00143,2025-04-06,39,Saint Petersburg,affluent,low
+U00144,2024-12-12,55,Saint Petersburg,mass,low
+U00145,2023-07-23,32,Moscow,affluent,low
+U00146,2023-11-21,25,Moscow,mass,low
+U00147,2025-11-02,31,Moscow,mass,low
+U00148,2025-05-13,41,Moscow,mass,low
+U00149,2023-12-19,18,Moscow,mass,low
+U00150,2025-10-13,44,Nizhny Novgorod,mass,low
+U00151,2023-11-19,30,Saint Petersburg,mass,low
+U00152,2025-04-02,50,Ekaterinburg,student,medium
+U00153,2023-09-26,18,Nizhny Novgorod,mass,low
+U00154,2025-03-22,27,Moscow,mass,medium
+U00155,2024-11-20,18,Kazan,mass,low
+U00156,2024-05-06,26,Ekaterinburg,affluent,low
+U00157,2025-08-15,39,Kazan,mass,low
+U00158,2024-08-05,34,Saint Petersburg,small_business,medium
+U00159,2024-09-19,33,Saint Petersburg,affluent,low
+U00160,2024-01-21,34,Moscow,small_business,low
+U00161,2023-07-20,38,Saint Petersburg,affluent,low
+U00162,2024-05-04,24,Nizhny Novgorod,student,low
+U00163,2024-12-12,44,Nizhny Novgorod,mass,low
+U00164,2024-12-14,44,Moscow,student,low
+U00165,2024-12-04,41,Novosibirsk,affluent,low
+U00166,2023-12-25,43,Moscow,mass,low
+U00167,2025-02-26,40,Nizhny Novgorod,mass,low
+U00168,2025-07-10,60,Moscow,small_business,low
+U00169,2025-02-15,35,Nizhny Novgorod,student,medium
+U00170,2025-11-13,32,Ekaterinburg,mass,medium
+U00171,2025-09-01,27,Moscow,mass,low
+U00172,2025-09-15,24,Moscow,student,low
+U00173,2024-01-31,21,Ekaterinburg,mass,low
+U00174,2024-03-14,25,Moscow,affluent,low
+U00175,2024-04-05,35,Saint Petersburg,student,low
+U00176,2024-10-27,40,Nizhny Novgorod,mass,low
+U00177,2024-03-19,37,Kazan,mass,high
+U00178,2025-07-15,27,Saint Petersburg,mass,low
+U00179,2023-10-11,47,Saint Petersburg,student,medium
+U00180,2024-09-23,45,Moscow,small_business,low
+U00181,2023-09-08,34,Nizhny Novgorod,affluent,low
+U00182,2025-07-23,28,Moscow,mass,medium
+U00183,2024-09-26,43,Moscow,mass,low
+U00184,2024-04-06,38,Moscow,mass,medium
+U00185,2024-09-27,19,Nizhny Novgorod,mass,low
+U00186,2024-11-09,35,Moscow,mass,low
+U00187,2025-07-11,39,Ekaterinburg,student,low
+U00188,2025-01-05,25,Novosibirsk,student,medium
+U00189,2025-05-09,38,Ekaterinburg,small_business,low
+U00190,2025-03-15,19,Nizhny Novgorod,mass,medium
+U00191,2024-04-17,52,Ekaterinburg,affluent,medium
+U00192,2024-06-02,51,Nizhny Novgorod,mass,low
+U00193,2024-06-22,33,Moscow,small_business,low
+U00194,2025-01-22,40,Ekaterinburg,student,low
+U00195,2023-08-21,18,Saint Petersburg,student,high
+U00196,2025-09-17,22,Saint Petersburg,small_business,low
+U00197,2025-02-07,32,Nizhny Novgorod,small_business,low
+U00198,2025-08-22,23,Nizhny Novgorod,mass,low
+U00199,2025-02-11,45,Novosibirsk,mass,low
+U00200,2023-08-19,60,Saint Petersburg,mass,medium
+U00201,2025-01-18,22,Saint Petersburg,mass,low
+U00202,2023-10-04,26,Saint Petersburg,mass,low
+U00203,2024-09-28,39,Saint Petersburg,affluent,low
+U00204,2024-04-03,55,Saint Petersburg,mass,low
+U00205,2024-10-31,21,Moscow,mass,low
+U00206,2025-04-15,39,Moscow,student,medium
+U00207,2024-02-07,58,Novosibirsk,student,low
+U00208,2023-08-12,18,Saint Petersburg,mass,low
+U00209,2025-04-17,21,Nizhny Novgorod,mass,medium
+U00210,2024-01-25,31,Kazan,mass,low
+U00211,2025-04-19,30,Moscow,student,low
+U00212,2024-03-19,46,Moscow,small_business,low
+U00213,2024-01-16,39,Moscow,mass,high
+U00214,2024-11-07,18,Nizhny Novgorod,affluent,low
+U00215,2024-03-01,42,Moscow,student,low
+U00216,2025-04-10,29,Saint Petersburg,mass,low
+U00217,2025-09-25,51,Nizhny Novgorod,mass,low
+U00218,2025-09-10,28,Nizhny Novgorod,mass,low
+U00219,2024-11-09,28,Moscow,mass,low
+U00220,2023-10-09,42,Moscow,student,medium
+U00221,2025-08-14,45,Moscow,mass,medium
+U00222,2024-11-01,41,Moscow,mass,low
+U00223,2024-03-30,18,Moscow,mass,medium
+U00224,2025-06-09,42,Kazan,mass,high
+U00225,2024-03-15,24,Nizhny Novgorod,mass,low
+U00226,2025-03-11,39,Saint Petersburg,mass,low
+U00227,2023-12-30,19,Kazan,mass,medium
+U00228,2024-07-17,41,Moscow,mass,low
+U00229,2024-08-14,26,Ekaterinburg,mass,medium
+U00230,2025-07-02,21,Kazan,affluent,low
+U00231,2024-10-26,45,Ekaterinburg,mass,low
+U00232,2023-11-18,39,Nizhny Novgorod,mass,medium
+U00233,2025-11-16,29,Moscow,small_business,low
+U00234,2024-02-12,53,Moscow,mass,low
+U00235,2024-09-30,31,Moscow,affluent,low
+U00236,2024-03-17,36,Saint Petersburg,affluent,low
+U00237,2024-05-04,39,Nizhny Novgorod,student,low
+U00238,2024-11-22,29,Saint Petersburg,mass,low
+U00239,2025-03-09,42,Novosibirsk,mass,low
+U00240,2024-06-05,30,Saint Petersburg,small_business,low
+U00241,2025-08-03,31,Moscow,mass,low
+U00242,2024-07-12,52,Moscow,student,medium
+U00243,2025-09-11,24,Kazan,mass,low
+U00244,2024-05-16,18,Novosibirsk,student,low
+U00245,2024-06-03,55,Saint Petersburg,mass,low
+U00246,2025-09-20,67,Moscow,mass,low
+U00247,2024-02-12,31,Novosibirsk,mass,medium
+U00248,2024-12-06,18,Moscow,affluent,low
+U00249,2024-01-18,32,Nizhny Novgorod,mass,low
+U00250,2025-10-27,33,Moscow,mass,high
+U00251,2025-06-29,34,Moscow,mass,medium
+U00252,2024-09-29,23,Saint Petersburg,affluent,medium
+U00253,2025-06-22,43,Saint Petersburg,affluent,medium
+U00254,2025-02-19,42,Saint Petersburg,student,medium
+U00255,2024-05-07,18,Saint Petersburg,mass,low
+U00256,2025-07-30,44,Nizhny Novgorod,mass,low
+U00257,2024-04-22,61,Saint Petersburg,affluent,low
+U00258,2025-09-04,38,Saint Petersburg,mass,low
+U00259,2025-07-03,32,Saint Petersburg,mass,low
+U00260,2024-07-09,34,Moscow,mass,low
+U00261,2024-01-12,43,Kazan,mass,low
+U00262,2025-07-07,18,Moscow,mass,medium
+U00263,2025-03-17,38,Kazan,mass,medium
+U00264,2023-09-20,31,Moscow,student,low
+U00265,2023-07-25,58,Nizhny Novgorod,affluent,low
+U00266,2024-07-15,34,Saint Petersburg,affluent,low
+U00267,2024-11-09,56,Nizhny Novgorod,mass,low
+U00268,2025-02-04,23,Saint Petersburg,mass,medium
+U00269,2024-06-18,43,Moscow,small_business,medium
+U00270,2024-07-06,40,Ekaterinburg,mass,medium
+U00271,2025-03-21,26,Kazan,mass,medium
+U00272,2025-11-13,38,Ekaterinburg,mass,high
+U00273,2025-07-24,51,Saint Petersburg,mass,low
+U00274,2023-08-22,32,Kazan,student,low
+U00275,2024-12-04,18,Ekaterinburg,mass,low
+U00276,2024-10-09,36,Kazan,student,low
+U00277,2024-10-22,25,Moscow,student,low
+U00278,2024-01-22,32,Kazan,mass,low
+U00279,2025-10-07,35,Novosibirsk,small_business,high
+U00280,2025-09-22,18,Nizhny Novgorod,mass,low
+U00281,2025-04-07,18,Saint Petersburg,mass,high
+U00282,2024-10-05,42,Saint Petersburg,mass,medium
+U00283,2024-04-28,30,Ekaterinburg,mass,low
+U00284,2024-10-02,18,Saint Petersburg,mass,low
+U00285,2024-11-14,45,Novosibirsk,mass,low
+U00286,2023-09-09,39,Saint Petersburg,mass,low
+U00287,2025-07-15,27,Moscow,mass,low
+U00288,2024-07-23,20,Novosibirsk,affluent,medium
+U00289,2024-08-18,46,Moscow,small_business,low
+U00290,2024-10-17,40,Moscow,student,low
+U00291,2023-12-31,65,Kazan,mass,low
+U00292,2025-04-14,41,Novosibirsk,mass,low
+U00293,2023-08-26,41,Nizhny Novgorod,mass,low
+U00294,2025-02-17,34,Moscow,mass,low
+U00295,2024-08-15,46,Moscow,student,low
+U00296,2024-09-06,44,Nizhny Novgorod,affluent,low
+U00297,2023-11-24,51,Moscow,mass,low
+U00298,2024-11-16,30,Moscow,affluent,low
+U00299,2025-03-30,31,Moscow,student,low
+U00300,2025-11-14,30,Saint Petersburg,student,low
+U00301,2025-01-20,45,Ekaterinburg,mass,low
+U00302,2023-12-15,54,Novosibirsk,student,low
+U00303,2025-11-24,30,Novosibirsk,mass,low
+U00304,2023-10-15,31,Moscow,small_business,low
+U00305,2024-08-17,40,Saint Petersburg,mass,low
+U00306,2025-08-02,33,Saint Petersburg,mass,low
+U00307,2025-03-15,47,Moscow,mass,low
+U00308,2024-08-07,18,Moscow,mass,high
+U00309,2025-03-03,26,Moscow,mass,low
+U00310,2025-08-30,27,Moscow,mass,medium
+U00311,2024-05-02,18,Kazan,affluent,low
+U00312,2024-04-27,24,Novosibirsk,student,low
+U00313,2025-08-21,25,Moscow,mass,medium
+U00314,2025-04-02,34,Saint Petersburg,mass,medium
+U00315,2025-05-04,49,Ekaterinburg,affluent,medium
+U00316,2024-05-08,33,Novosibirsk,mass,low
+U00317,2024-03-07,24,Ekaterinburg,mass,medium
+U00318,2024-03-10,35,Saint Petersburg,student,low
+U00319,2023-09-08,49,Ekaterinburg,student,low
+U00320,2024-02-03,24,Moscow,student,low
+U00321,2025-02-27,25,Saint Petersburg,mass,high
+U00322,2025-08-31,43,Moscow,mass,low
+U00323,2024-06-16,33,Saint Petersburg,mass,medium
+U00324,2023-09-28,44,Saint Petersburg,student,low
+U00325,2023-08-07,36,Moscow,affluent,medium
+U00326,2025-05-16,44,Novosibirsk,affluent,low
+U00327,2025-05-11,24,Moscow,student,medium
+U00328,2025-10-31,36,Moscow,student,low
+U00329,2025-08-02,33,Moscow,student,low
+U00330,2024-08-07,21,Saint Petersburg,affluent,low
+U00331,2024-08-14,18,Moscow,mass,low
+U00332,2025-01-14,44,Saint Petersburg,mass,low
+U00333,2025-03-08,32,Moscow,mass,low
+U00334,2023-12-12,24,Novosibirsk,affluent,low
+U00335,2024-10-28,35,Nizhny Novgorod,mass,low
+U00336,2023-12-30,50,Saint Petersburg,mass,low
+U00337,2023-08-18,18,Kazan,small_business,medium
+U00338,2025-03-02,18,Ekaterinburg,student,low
+U00339,2025-06-09,25,Nizhny Novgorod,affluent,high
+U00340,2023-08-26,54,Kazan,student,high
+U00341,2024-05-29,39,Ekaterinburg,mass,low
+U00342,2025-03-24,45,Nizhny Novgorod,affluent,low
+U00343,2024-06-09,22,Ekaterinburg,mass,low
+U00344,2024-09-10,23,Saint Petersburg,mass,low
+U00345,2023-10-07,41,Moscow,mass,low
+U00346,2025-04-24,37,Moscow,mass,low
+U00347,2023-07-24,43,Saint Petersburg,mass,low
+U00348,2023-09-10,34,Saint Petersburg,mass,low
+U00349,2025-06-28,39,Saint Petersburg,mass,high
+U00350,2025-07-12,38,Kazan,mass,low
+U00351,2024-08-26,45,Kazan,mass,low
+U00352,2025-10-24,46,Ekaterinburg,mass,high
+U00353,2025-03-18,18,Moscow,mass,low
+U00354,2024-11-19,18,Moscow,student,low
+U00355,2023-08-12,48,Ekaterinburg,affluent,medium
+U00356,2023-07-23,50,Ekaterinburg,mass,low
+U00357,2025-07-24,24,Nizhny Novgorod,student,low
+U00358,2023-10-19,18,Ekaterinburg,mass,low
+U00359,2025-09-14,37,Ekaterinburg,affluent,medium
+U00360,2024-02-20,47,Moscow,mass,low
+U00361,2023-11-28,58,Saint Petersburg,student,low
+U00362,2023-10-20,42,Moscow,student,low
+U00363,2025-05-22,32,Kazan,student,low
+U00364,2023-10-17,25,Nizhny Novgorod,affluent,low
+U00365,2025-08-24,36,Moscow,small_business,medium
+U00366,2024-09-07,32,Kazan,student,medium
+U00367,2024-10-20,24,Moscow,mass,low
+U00368,2025-03-03,61,Moscow,student,low
+U00369,2025-11-13,57,Moscow,mass,low
+U00370,2024-01-31,50,Moscow,mass,low
+U00371,2025-02-14,25,Nizhny Novgorod,mass,low
+U00372,2024-05-06,46,Saint Petersburg,student,low
+U00373,2024-12-11,44,Ekaterinburg,mass,low
+U00374,2025-01-11,41,Novosibirsk,small_business,low
+U00375,2023-10-23,51,Moscow,mass,low
+U00376,2025-09-11,44,Moscow,mass,low
+U00377,2024-03-02,45,Ekaterinburg,student,low
+U00378,2024-02-22,44,Moscow,mass,medium
+U00379,2025-01-06,40,Nizhny Novgorod,mass,medium
+U00380,2025-04-18,18,Moscow,affluent,medium
+U00381,2025-11-28,37,Novosibirsk,mass,medium
+U00382,2023-09-09,29,Ekaterinburg,affluent,low
+U00383,2023-08-31,21,Moscow,affluent,medium
+U00384,2025-05-07,56,Moscow,mass,low
+U00385,2025-11-05,57,Nizhny Novgorod,mass,low
+U00386,2025-08-18,52,Moscow,mass,low
+U00387,2025-10-05,39,Saint Petersburg,mass,low
+U00388,2023-12-10,52,Saint Petersburg,small_business,low
+U00389,2023-10-19,36,Moscow,mass,low
+U00390,2025-07-22,38,Novosibirsk,small_business,low
+U00391,2024-02-22,23,Novosibirsk,mass,medium
+U00392,2025-06-30,41,Saint Petersburg,mass,low
+U00393,2025-01-17,37,Ekaterinburg,mass,low
+U00394,2024-06-29,20,Moscow,student,medium
+U00395,2024-03-16,35,Moscow,mass,low
+U00396,2023-11-03,35,Kazan,mass,low
+U00397,2025-10-25,58,Nizhny Novgorod,student,low
+U00398,2025-06-15,47,Moscow,small_business,low
+U00399,2025-04-02,36,Moscow,student,low
+U00400,2025-03-08,39,Saint Petersburg,mass,medium
+U00401,2023-07-18,37,Ekaterinburg,affluent,medium
+U00402,2024-01-26,34,Moscow,student,low
+U00403,2025-02-27,23,Saint Petersburg,affluent,low
+U00404,2023-08-10,34,Novosibirsk,mass,medium
+U00405,2024-09-24,27,Saint Petersburg,student,low
+U00406,2024-09-23,21,Moscow,mass,low
+U00407,2024-11-20,42,Moscow,mass,low
+U00408,2025-07-30,41,Saint Petersburg,mass,low
+U00409,2023-09-12,18,Saint Petersburg,affluent,low
+U00410,2025-11-20,35,Ekaterinburg,mass,low
+U00411,2025-07-04,48,Kazan,mass,low
+U00412,2025-05-17,49,Novosibirsk,mass,low
+U00413,2025-04-04,48,Nizhny Novgorod,mass,low
+U00414,2025-08-10,36,Saint Petersburg,small_business,low
+U00415,2025-11-17,26,Saint Petersburg,mass,high
+U00416,2024-04-22,23,Nizhny Novgorod,mass,low
+U00417,2023-08-12,40,Moscow,mass,low
+U00418,2025-08-19,41,Novosibirsk,mass,low
+U00419,2025-03-20,51,Novosibirsk,small_business,medium
+U00420,2024-09-18,49,Moscow,student,low
+U00421,2023-09-18,34,Saint Petersburg,mass,medium
+U00422,2024-04-07,21,Moscow,mass,low
+U00423,2024-02-05,32,Moscow,mass,low
+U00424,2024-07-15,39,Saint Petersburg,mass,low
+U00425,2024-12-05,34,Moscow,student,low
+U00426,2025-06-12,29,Ekaterinburg,mass,medium
+U00427,2023-11-12,39,Nizhny Novgorod,mass,medium
+U00428,2024-01-03,30,Ekaterinburg,mass,low
+U00429,2025-11-11,28,Moscow,mass,high
+U00430,2024-03-20,40,Moscow,mass,low
+U00431,2025-09-20,31,Moscow,mass,low
+U00432,2024-02-29,39,Moscow,affluent,low
+U00433,2023-12-15,39,Nizhny Novgorod,mass,low
+U00434,2025-08-10,22,Saint Petersburg,mass,medium
+U00435,2024-11-20,30,Moscow,mass,low
+U00436,2025-08-17,53,Ekaterinburg,student,low
+U00437,2024-07-27,22,Saint Petersburg,mass,low
+U00438,2023-09-18,18,Moscow,mass,low
+U00439,2025-09-23,18,Moscow,affluent,low
+U00440,2024-12-22,36,Kazan,mass,low
+U00441,2023-08-09,36,Ekaterinburg,student,low
+U00442,2025-03-16,35,Moscow,mass,low
+U00443,2025-08-09,51,Nizhny Novgorod,mass,low
+U00444,2024-10-03,18,Ekaterinburg,mass,low
+U00445,2024-09-16,41,Ekaterinburg,affluent,low
+U00446,2024-05-05,55,Moscow,mass,medium
+U00447,2025-03-05,22,Moscow,mass,high
+U00448,2023-08-24,31,Ekaterinburg,mass,low
+U00449,2024-09-05,27,Moscow,mass,high
+U00450,2025-03-28,25,Kazan,affluent,low
+U00451,2023-08-20,32,Novosibirsk,mass,low
+U00452,2023-09-20,53,Moscow,mass,low
+U00453,2024-09-24,58,Ekaterinburg,mass,low
+U00454,2025-11-11,32,Nizhny Novgorod,student,medium
+U00455,2024-07-01,59,Novosibirsk,student,low
+U00456,2024-08-06,36,Saint Petersburg,mass,low
+U00457,2025-07-27,57,Ekaterinburg,mass,low
+U00458,2024-05-30,35,Saint Petersburg,small_business,low
+U00459,2023-12-02,38,Novosibirsk,mass,low
+U00460,2025-09-01,40,Ekaterinburg,mass,low
+U00461,2024-03-13,74,Novosibirsk,student,low
+U00462,2025-08-02,46,Moscow,mass,low
+U00463,2024-02-20,28,Moscow,affluent,low
+U00464,2024-12-03,48,Moscow,mass,low
+U00465,2025-11-27,32,Saint Petersburg,affluent,low
+U00466,2023-08-15,30,Saint Petersburg,affluent,low
+U00467,2025-07-11,47,Kazan,student,low
+U00468,2024-07-02,36,Saint Petersburg,mass,low
+U00469,2025-06-28,39,Ekaterinburg,small_business,low
+U00470,2023-09-13,36,Nizhny Novgorod,mass,medium
+U00471,2024-02-29,40,Moscow,student,low
+U00472,2024-01-03,41,Novosibirsk,small_business,low
+U00473,2024-11-22,18,Novosibirsk,affluent,low
+U00474,2024-10-22,44,Saint Petersburg,mass,high
+U00475,2024-05-30,24,Moscow,mass,medium
+U00476,2024-01-20,19,Ekaterinburg,mass,low
+U00477,2023-11-27,35,Nizhny Novgorod,affluent,low
+U00478,2025-11-17,37,Novosibirsk,mass,low
+U00479,2024-05-04,28,Nizhny Novgorod,student,high
+U00480,2025-08-30,46,Nizhny Novgorod,mass,low
+U00481,2025-03-27,20,Saint Petersburg,small_business,low
+U00482,2023-12-12,31,Kazan,affluent,high
+U00483,2025-04-29,29,Saint Petersburg,mass,low
+U00484,2024-01-09,35,Nizhny Novgorod,student,low
+U00485,2024-10-26,39,Moscow,small_business,low
+U00486,2025-05-14,24,Saint Petersburg,small_business,low
+U00487,2025-02-15,45,Ekaterinburg,mass,low
+U00488,2024-08-28,37,Moscow,mass,low
+U00489,2024-02-06,18,Ekaterinburg,mass,medium
+U00490,2024-06-23,18,Saint Petersburg,mass,medium
+U00491,2023-09-13,36,Nizhny Novgorod,student,low
+U00492,2023-11-09,33,Ekaterinburg,student,low
+U00493,2024-02-16,35,Moscow,mass,low
+U00494,2024-06-26,36,Novosibirsk,affluent,low
+U00495,2025-03-25,39,Moscow,student,medium
+U00496,2024-12-09,47,Kazan,mass,low
+U00497,2025-08-21,23,Kazan,mass,low
+U00498,2025-01-11,22,Ekaterinburg,mass,low
+U00499,2023-09-18,23,Moscow,student,low
+U00500,2024-11-27,39,Moscow,mass,low
+U00501,2025-08-26,51,Novosibirsk,mass,low
+U00502,2024-05-14,31,Kazan,mass,medium
+U00503,2023-08-18,18,Saint Petersburg,affluent,low
+U00504,2023-11-09,18,Moscow,student,medium
+U00505,2025-04-08,26,Moscow,affluent,low
+U00506,2024-11-03,29,Ekaterinburg,affluent,medium
+U00507,2024-08-28,31,Moscow,affluent,low
+U00508,2025-05-01,36,Saint Petersburg,mass,low
+U00509,2025-04-13,32,Nizhny Novgorod,mass,high
+U00510,2025-05-11,49,Moscow,mass,low
+U00511,2023-07-21,28,Novosibirsk,mass,low
+U00512,2024-02-22,26,Moscow,student,low
+U00513,2023-12-02,42,Ekaterinburg,small_business,low
+U00514,2023-12-23,18,Novosibirsk,mass,low
+U00515,2023-08-21,41,Ekaterinburg,affluent,low
+U00516,2025-09-02,37,Moscow,mass,medium
+U00517,2023-10-27,34,Saint Petersburg,student,low
+U00518,2025-10-06,55,Novosibirsk,mass,low
+U00519,2024-10-15,29,Moscow,mass,low
+U00520,2024-07-03,61,Moscow,mass,medium
+U00521,2025-01-25,33,Moscow,mass,low
+U00522,2025-07-28,21,Nizhny Novgorod,mass,low
+U00523,2025-06-18,37,Novosibirsk,mass,low
+U00524,2023-12-16,23,Kazan,mass,low
+U00525,2025-02-28,27,Novosibirsk,small_business,medium
+U00526,2025-03-08,41,Saint Petersburg,student,low
+U00527,2023-09-21,43,Saint Petersburg,mass,medium
+U00528,2025-07-30,29,Saint Petersburg,mass,low
+U00529,2023-09-28,48,Kazan,mass,low
+U00530,2023-09-23,50,Moscow,mass,low
+U00531,2024-06-30,53,Ekaterinburg,mass,low
+U00532,2025-07-11,42,Ekaterinburg,small_business,low
+U00533,2025-07-20,52,Moscow,mass,low
+U00534,2025-03-30,18,Kazan,mass,low
+U00535,2024-07-18,32,Moscow,student,low
+U00536,2025-07-22,26,Nizhny Novgorod,mass,low
+U00537,2024-11-01,37,Nizhny Novgorod,mass,low
+U00538,2025-08-24,29,Nizhny Novgorod,student,low
+U00539,2024-08-19,34,Moscow,mass,low
+U00540,2025-11-14,59,Moscow,mass,low
+U00541,2024-03-26,34,Moscow,mass,low
+U00542,2025-10-15,41,Moscow,mass,low
+U00543,2025-06-16,33,Moscow,mass,low
+U00544,2025-07-04,37,Moscow,mass,low
+U00545,2023-12-11,36,Nizhny Novgorod,student,low
+U00546,2025-10-17,41,Moscow,student,low
+U00547,2024-11-24,50,Moscow,mass,low
+U00548,2024-07-06,56,Ekaterinburg,small_business,low
+U00549,2024-09-10,40,Kazan,student,medium
+U00550,2024-04-19,43,Novosibirsk,mass,low
+U00551,2024-01-04,22,Kazan,mass,medium
+U00552,2024-12-25,35,Ekaterinburg,affluent,low
+U00553,2023-12-13,47,Kazan,mass,low
+U00554,2025-03-01,46,Saint Petersburg,mass,low
+U00555,2023-07-30,39,Novosibirsk,mass,low
+U00556,2024-09-20,47,Saint Petersburg,affluent,medium
+U00557,2024-03-02,42,Moscow,student,low
+U00558,2023-11-02,50,Saint Petersburg,small_business,high
+U00559,2024-01-13,39,Moscow,student,low
+U00560,2023-11-23,32,Ekaterinburg,affluent,medium
+U00561,2024-08-23,40,Moscow,student,medium
+U00562,2025-10-26,18,Moscow,mass,low
+U00563,2024-09-30,41,Moscow,student,low
+U00564,2025-06-28,18,Ekaterinburg,mass,low
+U00565,2023-10-21,18,Moscow,mass,low
+U00566,2025-05-11,41,Novosibirsk,student,high
+U00567,2025-05-18,42,Ekaterinburg,mass,low
+U00568,2025-04-30,22,Moscow,mass,low
+U00569,2024-05-22,27,Novosibirsk,affluent,low
+U00570,2024-07-24,52,Moscow,affluent,low
+U00571,2023-08-30,30,Moscow,mass,high
+U00572,2024-12-05,63,Novosibirsk,student,low
+U00573,2025-04-01,36,Nizhny Novgorod,mass,medium
+U00574,2025-10-21,41,Moscow,affluent,medium
+U00575,2025-11-26,55,Kazan,student,low
+U00576,2025-01-11,38,Moscow,mass,low
+U00577,2023-09-19,24,Kazan,small_business,low
+U00578,2024-09-03,35,Kazan,small_business,low
+U00579,2023-10-17,36,Kazan,mass,low
+U00580,2025-09-05,20,Kazan,mass,medium
+U00581,2025-09-12,33,Moscow,mass,low
+U00582,2023-12-08,27,Novosibirsk,mass,medium
+U00583,2025-09-01,47,Novosibirsk,student,medium
+U00584,2025-10-18,36,Novosibirsk,student,medium
+U00585,2024-12-16,33,Moscow,mass,low
+U00586,2023-09-20,35,Saint Petersburg,mass,low
+U00587,2024-04-12,39,Saint Petersburg,mass,low
+U00588,2025-09-07,43,Moscow,mass,low
+U00589,2023-12-05,24,Moscow,affluent,low
+U00590,2023-11-30,24,Saint Petersburg,affluent,low
+U00591,2024-01-06,49,Novosibirsk,mass,low
+U00592,2023-10-09,31,Moscow,affluent,low
+U00593,2025-05-08,19,Ekaterinburg,mass,low
+U00594,2023-08-03,41,Saint Petersburg,mass,low
+U00595,2025-02-26,42,Novosibirsk,mass,low
+U00596,2024-01-05,18,Saint Petersburg,affluent,medium
+U00597,2024-07-16,39,Saint Petersburg,affluent,low
+U00598,2024-01-24,45,Kazan,affluent,medium
+U00599,2024-06-04,40,Nizhny Novgorod,affluent,medium
+U00600,2024-05-23,44,Saint Petersburg,small_business,low
+U00601,2024-06-14,19,Saint Petersburg,mass,low
+U00602,2024-01-25,40,Kazan,small_business,low
+U00603,2024-02-29,32,Novosibirsk,mass,low
+U00604,2025-08-07,30,Moscow,mass,low
+U00605,2023-12-15,46,Saint Petersburg,mass,low
+U00606,2024-08-23,54,Saint Petersburg,mass,medium
+U00607,2025-02-24,58,Nizhny Novgorod,mass,medium
+U00608,2024-09-11,52,Saint Petersburg,mass,medium
+U00609,2023-08-14,35,Saint Petersburg,student,low
+U00610,2023-11-17,40,Nizhny Novgorod,mass,low
+U00611,2023-12-08,45,Saint Petersburg,affluent,high
+U00612,2024-10-26,37,Moscow,mass,low
+U00613,2024-01-20,38,Moscow,mass,low
+U00614,2025-01-01,46,Moscow,mass,low
+U00615,2024-04-15,35,Moscow,mass,low
+U00616,2024-05-25,27,Saint Petersburg,mass,low
+U00617,2025-04-29,31,Novosibirsk,affluent,low
+U00618,2025-04-15,44,Novosibirsk,mass,low
+U00619,2025-10-10,36,Moscow,mass,low
+U00620,2025-08-03,40,Kazan,mass,low
+U00621,2024-11-20,44,Moscow,mass,low
+U00622,2024-10-13,32,Nizhny Novgorod,affluent,low
+U00623,2025-07-12,45,Moscow,mass,medium
+U00624,2024-12-05,41,Kazan,affluent,low
+U00625,2024-06-25,21,Moscow,mass,low
+U00626,2025-05-14,53,Kazan,affluent,medium
+U00627,2025-02-11,30,Saint Petersburg,mass,low
+U00628,2025-01-17,18,Novosibirsk,affluent,medium
+U00629,2024-09-19,23,Moscow,small_business,low
+U00630,2025-01-18,24,Nizhny Novgorod,mass,low
+U00631,2024-03-01,37,Saint Petersburg,affluent,low
+U00632,2025-02-21,33,Novosibirsk,mass,low
+U00633,2024-11-20,32,Ekaterinburg,mass,high
+U00634,2025-01-06,43,Nizhny Novgorod,small_business,medium
+U00635,2025-06-26,40,Moscow,mass,medium
+U00636,2024-04-15,40,Moscow,mass,medium
+U00637,2025-05-12,41,Moscow,student,low
+U00638,2025-03-19,43,Moscow,mass,medium
+U00639,2024-01-13,18,Kazan,affluent,low
+U00640,2023-08-30,32,Nizhny Novgorod,mass,medium
+U00641,2024-04-28,18,Nizhny Novgorod,mass,low
+U00642,2023-09-27,36,Saint Petersburg,mass,low
+U00643,2023-11-20,36,Kazan,mass,medium
+U00644,2024-10-10,49,Ekaterinburg,affluent,medium
+U00645,2024-02-01,50,Nizhny Novgorod,affluent,low
+U00646,2025-02-20,38,Moscow,student,low
+U00647,2024-10-28,30,Saint Petersburg,mass,low
+U00648,2024-08-24,42,Ekaterinburg,mass,high
+U00649,2023-08-20,30,Moscow,mass,low
+U00650,2023-11-25,36,Saint Petersburg,mass,low
+U00651,2024-10-03,48,Nizhny Novgorod,mass,low
+U00652,2024-05-14,29,Nizhny Novgorod,mass,low
+U00653,2025-06-09,46,Nizhny Novgorod,mass,low
+U00654,2024-01-03,44,Ekaterinburg,mass,low
+U00655,2024-08-08,25,Moscow,mass,medium
+U00656,2024-08-26,48,Moscow,affluent,medium
+U00657,2024-02-05,44,Saint Petersburg,mass,medium
+U00658,2024-05-31,37,Kazan,mass,low
+U00659,2025-09-30,27,Saint Petersburg,affluent,low
+U00660,2025-03-27,26,Kazan,affluent,low
+U00661,2025-07-02,30,Saint Petersburg,student,medium
+U00662,2024-03-03,43,Novosibirsk,mass,low
+U00663,2025-11-02,25,Moscow,mass,low
+U00664,2025-06-09,41,Moscow,mass,medium
+U00665,2024-07-01,21,Moscow,mass,low
+U00666,2024-04-07,34,Moscow,mass,medium
+U00667,2024-09-21,37,Ekaterinburg,mass,low
+U00668,2023-11-15,65,Saint Petersburg,mass,low
+U00669,2023-09-25,19,Moscow,small_business,low
+U00670,2025-08-10,54,Novosibirsk,mass,low
+U00671,2023-08-27,38,Kazan,affluent,medium
+U00672,2024-06-16,41,Moscow,small_business,low
+U00673,2024-05-28,37,Moscow,affluent,low
+U00674,2025-09-11,41,Moscow,student,medium
+U00675,2024-06-09,34,Kazan,affluent,low
+U00676,2024-03-11,53,Moscow,student,medium
+U00677,2024-07-15,31,Moscow,mass,low
+U00678,2025-09-20,50,Moscow,affluent,medium
+U00679,2024-09-03,28,Kazan,mass,low
+U00680,2023-09-10,35,Moscow,mass,low
+U00681,2024-03-13,23,Ekaterinburg,mass,low
+U00682,2025-08-05,41,Moscow,affluent,low
+U00683,2023-08-20,53,Kazan,mass,low
+U00684,2023-08-21,35,Saint Petersburg,mass,low
+U00685,2025-07-08,34,Saint Petersburg,affluent,low
+U00686,2024-01-06,23,Moscow,mass,medium
+U00687,2024-12-14,33,Ekaterinburg,student,low
+U00688,2024-07-04,18,Nizhny Novgorod,mass,low
+U00689,2024-11-10,25,Moscow,small_business,high
+U00690,2024-01-22,39,Moscow,mass,low
+U00691,2023-07-19,52,Nizhny Novgorod,mass,high
+U00692,2024-01-11,70,Saint Petersburg,student,high
+U00693,2023-09-14,29,Moscow,affluent,medium
+U00694,2023-09-01,53,Moscow,mass,medium
+U00695,2025-09-15,39,Kazan,mass,low
+U00696,2025-04-26,34,Novosibirsk,small_business,low
+U00697,2024-03-14,41,Kazan,student,low
+U00698,2024-07-07,37,Nizhny Novgorod,mass,medium
+U00699,2025-10-20,37,Saint Petersburg,mass,low
+U00700,2025-09-11,31,Moscow,affluent,medium
+U00701,2024-09-06,19,Saint Petersburg,mass,low
+U00702,2024-06-14,18,Saint Petersburg,mass,low
+U00703,2025-07-10,44,Moscow,student,low
+U00704,2025-07-06,33,Moscow,mass,low
+U00705,2025-08-12,29,Saint Petersburg,affluent,low
+U00706,2024-07-29,36,Novosibirsk,student,low
+U00707,2025-11-26,46,Moscow,mass,medium
+U00708,2024-07-22,38,Saint Petersburg,affluent,low
+U00709,2024-10-14,28,Kazan,student,low
+U00710,2024-10-23,51,Kazan,mass,low
+U00711,2024-04-21,55,Novosibirsk,mass,low
+U00712,2024-09-04,42,Ekaterinburg,mass,low
+U00713,2024-03-09,48,Novosibirsk,mass,low
+U00714,2024-02-07,51,Moscow,mass,medium
+U00715,2023-09-24,50,Saint Petersburg,mass,low
+U00716,2024-01-07,43,Kazan,mass,low
+U00717,2024-09-08,43,Moscow,mass,low
+U00718,2024-09-30,42,Moscow,mass,low
+U00719,2025-05-11,23,Moscow,student,medium
+U00720,2024-06-29,44,Saint Petersburg,affluent,low
+U00721,2025-08-03,20,Saint Petersburg,student,medium
+U00722,2023-09-14,26,Moscow,affluent,low
+U00723,2023-11-28,52,Ekaterinburg,mass,low
+U00724,2025-08-20,46,Nizhny Novgorod,affluent,low
+U00725,2024-01-19,54,Moscow,mass,low
+U00726,2025-08-23,33,Nizhny Novgorod,mass,high
+U00727,2024-03-15,22,Moscow,mass,low
+U00728,2025-09-17,33,Nizhny Novgorod,student,medium
+U00729,2024-10-04,37,Nizhny Novgorod,mass,medium
+U00730,2024-05-09,37,Moscow,mass,low
+U00731,2024-03-08,50,Novosibirsk,affluent,low
+U00732,2024-12-03,32,Nizhny Novgorod,student,low
+U00733,2023-09-23,40,Nizhny Novgorod,affluent,low
+U00734,2024-01-29,24,Nizhny Novgorod,affluent,medium
+U00735,2025-06-04,41,Kazan,affluent,low
+U00736,2024-04-28,36,Moscow,mass,medium
+U00737,2024-03-07,27,Ekaterinburg,mass,low
+U00738,2025-02-15,33,Kazan,mass,low
+U00739,2024-02-29,34,Kazan,mass,low
+U00740,2023-10-13,33,Saint Petersburg,affluent,low
+U00741,2023-12-23,57,Kazan,student,medium
+U00742,2024-02-08,35,Moscow,mass,low
+U00743,2024-05-29,33,Novosibirsk,student,high
+U00744,2025-04-11,18,Moscow,small_business,medium
+U00745,2024-01-11,25,Novosibirsk,mass,medium
+U00746,2025-01-20,33,Ekaterinburg,mass,low
+U00747,2024-08-26,28,Saint Petersburg,affluent,medium
+U00748,2025-03-04,53,Saint Petersburg,small_business,low
+U00749,2025-03-05,34,Moscow,student,medium
+U00750,2025-07-18,51,Nizhny Novgorod,affluent,low
+U00751,2023-08-19,37,Novosibirsk,affluent,low
+U00752,2025-07-27,36,Saint Petersburg,student,low
+U00753,2025-09-18,35,Moscow,mass,low
+U00754,2023-09-10,36,Moscow,mass,low
+U00755,2024-08-07,57,Saint Petersburg,mass,medium
+U00756,2024-11-17,18,Nizhny Novgorod,mass,low
+U00757,2024-03-01,18,Novosibirsk,mass,medium
+U00758,2025-01-03,29,Moscow,student,low
+U00759,2025-08-13,36,Ekaterinburg,student,medium
+U00760,2024-03-08,44,Saint Petersburg,student,medium
+U00761,2025-07-02,42,Ekaterinburg,mass,low
+U00762,2024-08-08,31,Moscow,mass,medium
+U00763,2023-08-30,48,Kazan,mass,medium
+U00764,2023-09-10,48,Nizhny Novgorod,mass,medium
+U00765,2025-01-23,38,Moscow,mass,low
+U00766,2024-01-24,48,Novosibirsk,mass,low
+U00767,2024-06-17,39,Nizhny Novgorod,small_business,medium
+U00768,2024-10-11,29,Moscow,mass,low
+U00769,2025-08-03,44,Moscow,affluent,medium
+U00770,2025-01-09,37,Novosibirsk,student,low
+U00771,2024-05-14,36,Moscow,mass,medium
+U00772,2023-07-28,54,Moscow,small_business,low
+U00773,2025-11-28,18,Saint Petersburg,affluent,low
+U00774,2024-03-18,19,Novosibirsk,mass,high
+U00775,2023-11-27,22,Moscow,mass,medium
+U00776,2023-08-28,32,Moscow,mass,medium
+U00777,2024-11-29,33,Ekaterinburg,mass,high
+U00778,2025-08-21,18,Saint Petersburg,affluent,low
+U00779,2025-04-11,24,Ekaterinburg,small_business,low
+U00780,2023-11-24,26,Saint Petersburg,mass,low
+U00781,2023-10-31,65,Nizhny Novgorod,student,low
+U00782,2024-05-27,58,Kazan,mass,low
+U00783,2025-08-18,31,Moscow,student,medium
+U00784,2025-08-18,32,Ekaterinburg,mass,low
+U00785,2024-10-12,22,Saint Petersburg,mass,low
+U00786,2024-07-09,18,Moscow,mass,low
+U00787,2025-11-04,35,Moscow,mass,low
+U00788,2024-04-15,24,Novosibirsk,student,low
+U00789,2024-08-16,35,Moscow,student,low
+U00790,2025-11-22,18,Moscow,affluent,low
+U00791,2025-09-10,27,Moscow,mass,low
+U00792,2024-11-02,38,Saint Petersburg,student,medium
+U00793,2024-03-14,40,Saint Petersburg,student,low
+U00794,2023-12-15,41,Saint Petersburg,mass,low
+U00795,2024-11-22,20,Moscow,mass,low
+U00796,2025-03-21,46,Moscow,mass,low
+U00797,2023-08-13,26,Kazan,mass,low
+U00798,2024-10-30,44,Saint Petersburg,small_business,high
+U00799,2025-03-03,36,Kazan,mass,low
+U00800,2024-11-13,19,Moscow,mass,low

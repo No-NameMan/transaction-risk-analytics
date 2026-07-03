@@ -1,0 +1,5 @@
+table,rows,columns,duplicate_rows,missing_values_total
+users,800,6,0,0
+merchants,120,7,0,0
+transactions,20580,9,0,0
+injected_cases,18,3,0,0

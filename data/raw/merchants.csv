@@ -1,0 +1,121 @@
+merchant_id,category,mcc,city,registration_date,merchant_size,base_amount
+M0001,pharmacy,5912,Moscow,2025-10-22,small,1200
+M0002,online_services,4899,Moscow,2023-03-05,large,1300
+M0003,electronics,5732,Moscow,2023-05-04,small,8000
+M0004,fuel,5541,Moscow,2024-04-09,medium,2500
+M0005,online_services,4899,Novosibirsk,2025-11-06,small,1300
+M0006,electronics,5732,Kazan,2025-08-10,medium,8000
+M0007,electronics,5732,Nizhny Novgorod,2025-07-16,small,8000
+M0008,grocery,5411,Ekaterinburg,2023-08-14,large,900
+M0009,grocery,5411,Kazan,2025-03-31,small,900
+M0010,cash_like,6051,Moscow,2025-02-05,medium,5000
+M0011,fuel,5541,Kazan,2023-02-28,small,2500
+M0012,pharmacy,5912,Moscow,2023-02-10,small,1200
+M0013,fuel,5541,Saint Petersburg,2023-06-21,small,2500
+M0014,grocery,5411,Saint Petersburg,2024-11-28,small,900
+M0015,online_services,4899,Saint Petersburg,2024-01-20,small,1300
+M0016,restaurants,5812,Moscow,2025-04-04,medium,1800
+M0017,online_services,4899,Novosibirsk,2023-03-03,small,1300
+M0018,fuel,5541,Ekaterinburg,2025-08-16,small,2500
+M0019,restaurants,5812,Novosibirsk,2023-07-13,small,1800
+M0020,grocery,5411,Kazan,2024-04-08,small,900
+M0021,online_services,4899,Saint Petersburg,2023-06-28,small,1300
+M0022,grocery,5411,Moscow,2024-06-18,medium,900
+M0023,grocery,5411,Novosibirsk,2025-05-23,small,900
+M0024,travel,4722,Kazan,2023-07-05,large,15000
+M0025,restaurants,5812,Moscow,2023-11-21,small,1800
+M0026,pharmacy,5912,Moscow,2024-06-02,small,1200
+M0027,restaurants,5812,Nizhny Novgorod,2024-09-16,large,1800
+M0028,online_services,4899,Kazan,2024-10-20,small,1300
+M0029,restaurants,5812,Saint Petersburg,2024-05-13,small,1800
+M0030,restaurants,5812,Kazan,2025-01-23,large,1800
+M0031,restaurants,5812,Saint Petersburg,2024-12-30,large,1800
+M0032,restaurants,5812,Saint Petersburg,2025-01-04,medium,1800
+M0033,restaurants,5812,Moscow,2025-11-08,small,1800
+M0034,grocery,5411,Saint Petersburg,2022-12-12,medium,900
+M0035,grocery,5411,Novosibirsk,2025-02-21,large,900
+M0036,pharmacy,5912,Moscow,2025-05-15,large,1200
+M0037,online_services,4899,Ekaterinburg,2025-05-31,small,1300
+M0038,grocery,5411,Moscow,2022-10-03,small,900
+M0039,restaurants,5812,Novosibirsk,2024-05-18,small,1800
+M0040,jewelry,5944,Kazan,2024-11-08,small,20000
+M0041,online_services,4899,Kazan,2024-08-11,medium,1300
+M0042,electronics,5732,Kazan,2025-08-12,small,8000
+M0043,restaurants,5812,Nizhny Novgorod,2024-11-24,small,1800
+M0044,pharmacy,5912,Saint Petersburg,2025-02-07,small,1200
+M0045,restaurants,5812,Novosibirsk,2023-05-06,small,1800
+M0046,grocery,5411,Novosibirsk,2025-09-16,small,900
+M0047,restaurants,5812,Moscow,2024-07-17,small,1800
+M0048,fuel,5541,Moscow,2023-05-21,small,2500
+M0049,restaurants,5812,Saint Petersburg,2023-04-01,large,1800
+M0050,electronics,5732,Moscow,2024-04-07,small,8000
+M0051,restaurants,5812,Saint Petersburg,2025-03-09,small,1800
+M0052,restaurants,5812,Saint Petersburg,2024-10-28,small,1800
+M0053,online_services,4899,Kazan,2025-03-10,small,1300
+M0054,online_services,4899,Moscow,2023-10-17,small,1300
+M0055,restaurants,5812,Ekaterinburg,2024-12-18,small,1800
+M0056,fuel,5541,Saint Petersburg,2023-11-22,small,2500
+M0057,restaurants,5812,Novosibirsk,2023-10-24,small,1800
+M0058,grocery,5411,Moscow,2022-11-28,medium,900
+M0059,travel,4722,Saint Petersburg,2024-09-19,small,15000
+M0060,grocery,5411,Moscow,2022-11-03,small,900
+M0061,pharmacy,5912,Novosibirsk,2024-08-15,medium,1200
+M0062,pharmacy,5912,Saint Petersburg,2023-09-25,small,1200
+M0063,grocery,5411,Nizhny Novgorod,2023-10-17,small,900
+M0064,grocery,5411,Moscow,2023-04-19,small,900
+M0065,restaurants,5812,Kazan,2024-05-27,small,1800
+M0066,cash_like,6051,Moscow,2023-05-18,small,5000
+M0067,electronics,5732,Kazan,2024-10-06,large,8000
+M0068,pharmacy,5912,Saint Petersburg,2024-05-02,large,1200
+M0069,grocery,5411,Saint Petersburg,2024-04-22,large,900
+M0070,electronics,5732,Moscow,2023-08-28,small,8000
+M0071,grocery,5411,Moscow,2023-12-06,small,900
+M0072,fuel,5541,Moscow,2025-08-24,small,2500
+M0073,travel,4722,Nizhny Novgorod,2023-04-29,small,15000
+M0074,pharmacy,5912,Saint Petersburg,2023-06-27,small,1200
+M0075,restaurants,5812,Moscow,2025-07-24,small,1800
+M0076,grocery,5411,Nizhny Novgorod,2022-11-03,small,900
+M0077,grocery,5411,Moscow,2023-10-18,small,900
+M0078,pharmacy,5912,Saint Petersburg,2025-08-16,small,1200
+M0079,online_services,4899,Novosibirsk,2024-05-01,medium,1300
+M0080,restaurants,5812,Nizhny Novgorod,2023-03-29,small,1800
+M0081,fuel,5541,Novosibirsk,2025-01-02,medium,2500
+M0082,electronics,5732,Saint Petersburg,2022-12-06,small,8000
+M0083,grocery,5411,Nizhny Novgorod,2024-07-25,small,900
+M0084,grocery,5411,Moscow,2025-03-05,small,900
+M0085,restaurants,5812,Nizhny Novgorod,2024-10-05,small,1800
+M0086,electronics,5732,Ekaterinburg,2024-03-24,small,8000
+M0087,pharmacy,5912,Nizhny Novgorod,2023-09-16,small,1200
+M0088,travel,4722,Moscow,2022-12-12,medium,15000
+M0089,online_services,4899,Moscow,2025-04-10,small,1300
+M0090,travel,4722,Novosibirsk,2022-11-05,small,15000
+M0091,cash_like,6051,Saint Petersburg,2024-03-20,large,5000
+M0092,travel,4722,Saint Petersburg,2025-06-27,small,15000
+M0093,online_services,4899,Nizhny Novgorod,2022-12-14,medium,1300
+M0094,online_services,4899,Kazan,2024-10-14,small,1300
+M0095,travel,4722,Moscow,2023-12-04,small,15000
+M0096,online_services,4899,Saint Petersburg,2023-09-05,small,1300
+M0097,jewelry,5944,Moscow,2025-11-07,small,20000
+M0098,pharmacy,5912,Moscow,2025-03-10,medium,1200
+M0099,electronics,5732,Moscow,2023-09-18,small,8000
+M0100,fuel,5541,Ekaterinburg,2024-11-11,small,2500
+M0101,online_services,4899,Novosibirsk,2025-11-12,small,1300
+M0102,pharmacy,5912,Saint Petersburg,2025-10-26,large,1200
+M0103,online_services,4899,Saint Petersburg,2023-04-09,medium,1300
+M0104,online_services,4899,Novosibirsk,2025-05-28,large,1300
+M0105,cash_like,6051,Ekaterinburg,2025-07-29,medium,5000
+M0106,restaurants,5812,Nizhny Novgorod,2024-02-09,medium,1800
+M0107,travel,4722,Kazan,2025-07-08,small,15000
+M0108,travel,4722,Ekaterinburg,2023-10-27,large,15000
+M0109,jewelry,5944,Saint Petersburg,2024-03-01,small,20000
+M0110,jewelry,5944,Saint Petersburg,2023-11-01,small,20000
+M0111,fuel,5541,Ekaterinburg,2024-05-01,medium,2500
+M0112,fuel,5541,Saint Petersburg,2023-06-04,small,2500
+M0113,grocery,5411,Saint Petersburg,2023-11-06,small,900
+M0114,cash_like,6051,Moscow,2024-07-29,small,5000
+M0115,restaurants,5812,Saint Petersburg,2025-11-05,small,1800
+M0116,travel,4722,Kazan,2025-01-09,medium,15000
+M0117,online_services,4899,Novosibirsk,2025-06-23,small,1300
+M0118,pharmacy,5912,Saint Petersburg,2025-11-04,medium,1200
+M0119,restaurants,5812,Moscow,2025-01-10,small,1800
+M0120,grocery,5411,Ekaterinburg,2025-03-28,medium,900

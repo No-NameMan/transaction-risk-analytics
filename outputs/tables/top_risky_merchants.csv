@@ -1,0 +1,21 @@
+merchant_id,category,city,tx_count,turnover,avg_ticket,unique_users,night_tx_share,out_of_home_city_share,declined_share,peer_avg_turnover,peer_avg_tx_count,peer_avg_ticket,turnover_peer_ratio,tx_count_peer_ratio,avg_ticket_peer_ratio,turnover_rank_in_peer_group,flag_high_turnover_vs_peer,flag_high_avg_ticket_vs_peer,flag_high_tx_count_vs_peer,flag_high_night_share,flag_high_declined_share,risk_score,risk_level,risk_reasons
+M0058,grocery,Moscow,466,985690.94,2220.02,353,0.2532,0.6631,0.0472,236417.15,156.0,1302.67,4.1693,2.9872,1.7042,1,1,0,0,0,0,51.7,medium,turnover is much higher than category-city peers
+M0016,restaurants,Moscow,452,2039006.96,4634.11,335,0.2655,0.6858,0.0265,544938.06,160.67,2845.44,3.7417,2.8133,1.6286,1,1,0,0,0,0,46.2,medium,turnover is much higher than category-city peers
+M0079,online_services,Novosibirsk,455,1496982.63,3465.24,353,0.244,0.9253,0.0505,472172.97,209.83,2036.49,3.1704,2.1684,1.7016,1,1,0,0,0,0,39.9,low,turnover is much higher than category-city peers
+M0080,restaurants,Nizhny Novgorod,367,1843832.23,5150.37,301,0.3406,0.8692,0.0245,717867.1,227.6,2931.48,2.5685,1.6125,1.7569,1,0,0,0,1,0,35.1,low,high share of night transactions
+M0110,jewelry,Saint Petersburg,359,19825210.7,58138.45,292,0.312,0.7911,0.0501,10914503.06,219.5,41751.47,1.8164,1.6355,1.3925,1,0,0,0,1,0,27.7,low,high share of night transactions
+M0068,pharmacy,Saint Petersburg,411,636426.09,1611.21,310,0.0973,0.7689,0.0389,298736.67,196.71,1566.51,2.1304,2.0893,1.0285,1,0,0,0,0,0,20.6,low,no strong risk signal
+M0035,grocery,Novosibirsk,390,461233.49,1226.68,311,0.1179,0.9205,0.0359,223023.94,196.0,1137.47,2.0681,1.9898,1.0784,1,0,0,0,0,0,20.6,low,no strong risk signal
+M0036,pharmacy,Moscow,404,611682.44,1560.41,303,0.0891,0.6337,0.0297,290562.16,186.0,1607.94,2.1052,2.172,0.9704,1,0,0,0,0,0,19.7,low,no strong risk signal
+M0049,restaurants,Saint Petersburg,421,1038497.1,2520.62,320,0.0903,0.8171,0.0214,487741.51,206.29,2384.56,2.1292,2.0409,1.0571,1,0,0,0,0,0,19.1,low,no strong risk signal
+M0002,online_services,Moscow,430,709349.57,1692.96,315,0.114,0.6512,0.0256,352449.74,212.67,1716.52,2.0126,2.0219,0.9863,1,0,0,0,0,0,19.0,low,no strong risk signal
+M0069,grocery,Saint Petersburg,429,477623.45,1145.38,327,0.0979,0.7832,0.028,235325.2,206.75,1190.91,2.0296,2.075,0.9618,1,0,0,0,0,0,18.9,low,no strong risk signal
+M0031,restaurants,Saint Petersburg,414,985452.99,2451.38,313,0.0894,0.7536,0.029,487741.51,206.29,2384.56,2.0204,2.0069,1.028,2,0,0,0,0,0,18.4,low,no strong risk signal
+M0067,electronics,Kazan,427,4534423.81,10926.32,313,0.1101,0.8712,0.0281,2478505.95,239.0,10422.26,1.8295,1.7866,1.0484,1,0,0,0,0,0,16.8,low,no strong risk signal
+M0102,pharmacy,Saint Petersburg,363,532895.75,1526.92,287,0.0937,0.7548,0.0386,298736.67,196.71,1566.51,1.7838,1.8453,0.9747,2,0,0,0,0,0,16.4,low,no strong risk signal
+M0090,travel,Novosibirsk,356,14757865.73,43533.53,296,0.309,0.8764,0.0478,14757865.73,356.0,43533.53,1.0,1.0,1.0,1,0,0,0,1,0,15.5,low,high share of night transactions
+M0030,restaurants,Kazan,430,1002387.7,2392.33,327,0.1116,0.8628,0.0256,605539.35,259.5,2409.49,1.6554,1.657,0.9929,1,0,0,0,0,0,14.4,low,no strong risk signal
+M0024,travel,Kazan,403,7369172.91,19041.79,304,0.0744,0.8859,0.0397,4463689.02,240.0,19423.19,1.6509,1.6792,0.9804,1,0,0,0,0,0,13.9,low,no strong risk signal
+M0104,online_services,Novosibirsk,407,656088.86,1648.46,312,0.1007,0.9214,0.0221,472172.97,209.83,2036.49,1.3895,1.9396,0.8095,2,0,0,0,0,0,13.1,low,no strong risk signal
+M0010,cash_like,Moscow,199,1231719.33,6448.79,170,0.0905,0.7286,0.0402,810757.26,136.0,6116.12,1.5192,1.4632,1.0544,1,0,0,0,0,0,12.9,low,no strong risk signal
+M0103,online_services,Saint Petersburg,188,315222.95,1722.53,170,0.1011,0.7766,0.0266,201581.88,121.75,1708.32,1.5637,1.5441,1.0083,1,0,0,0,0,0,12.8,low,no strong risk signal
