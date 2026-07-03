@@ -176,6 +176,28 @@ user_scores[
 ].head(10)
             """
         ),
+                markdown_cell(
+            """
+## Sanity check on injected scenarios
+
+The synthetic injected cases are not used in risk scoring. They are used only after scoring to check whether the heuristic score surfaces the intended suspicious scenarios in the top-N review queue.
+
+This check is not a production evaluation metric. It is a sanity check for the synthetic dataset and the designed risk scenarios.
+            """
+        ),
+        code_cell(
+            """
+injected_recall = pd.read_csv(TABLES_DIR / "injected_case_recall.csv")
+injected_ranks = pd.read_csv(TABLES_DIR / "injected_case_ranks.csv")
+
+injected_recall
+            """
+        ),
+        code_cell(
+            """
+injected_ranks.sort_values(["object_type", "rank"]).head(20)
+            """
+        ),
         markdown_cell(
             """
 ## Business conclusion
