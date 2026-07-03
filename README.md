@@ -15,7 +15,7 @@ The analysis focuses on two types of objects:
 
 The key analytical idea is peer-group comparison:
 
-* merchants are compared within `category + city`;
+* merchants are compared within `category + city`, with a fallback to broader `category` peer groups when the narrow peer group is too small;
 * users are compared within `segment + city`.
 
 ## Data
@@ -55,7 +55,8 @@ transaction-risk-analytics/
 │   ├── build_sqlite_db.py
 │   ├── run_sql_analysis.py
 │   ├── risk_scoring.py
-│   └── eda_and_report.py
+│   ├── eda_and_report.py
+│   └── sanity_checks.py
 │
 ├── scripts/
 │   └── build_notebook.py
@@ -102,6 +103,7 @@ python src\build_sqlite_db.py
 python src\run_sql_analysis.py
 python src\risk_scoring.py
 python src\eda_and_report.py
+python src\sanity_checks.py
 python scripts\build_notebook.py
 ```
 
@@ -176,6 +178,14 @@ For users, the score is based on:
 
 The score is not a machine learning model. It is a transparent rule-based indicator designed for analytical prioritization.
 
+### 4. Peer-group comparison details
+
+Merchant peer comparison uses a leave-one-out approach: the merchant is excluded from its own peer average. This prevents large outliers from inflating the benchmark used to evaluate themselves.
+
+The default merchant peer group is `category + city`. If this group is too small, the analysis falls back to a broader `category` peer group. The output table includes `peer_group_level` and `peer_group_size` to make this logic transparent.
+
+Synthetic injected cases are not used in scoring. They are used only after scoring as a sanity check to verify whether the heuristic risk score surfaces the intended suspicious scenarios in the top-N review queue.
+
 ## Outputs
 
 The pipeline produces:
@@ -196,6 +206,8 @@ outputs/tables/user_risk_scores.csv
 outputs/tables/top_risky_merchants.csv
 outputs/tables/top_risky_users.csv
 outputs/tables/summary_report.md
+outputs/tables/injected_case_recall.csv
+outputs/tables/injected_case_ranks.csv
 ```
 
 ## Example business interpretation

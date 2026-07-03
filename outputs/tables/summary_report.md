@@ -9,11 +9,11 @@
 
 ## Top risky merchants
 
-- `M0058` | score=51.7 | category=grocery | city=Moscow | reasons: turnover is much higher than category-city peers.
-- `M0016` | score=46.2 | category=restaurants | city=Moscow | reasons: turnover is much higher than category-city peers.
-- `M0079` | score=39.9 | category=online_services | city=Novosibirsk | reasons: turnover is much higher than category-city peers.
-- `M0080` | score=35.1 | category=restaurants | city=Nizhny Novgorod | reasons: high share of night transactions.
-- `M0110` | score=27.7 | category=jewelry | city=Saint Petersburg | reasons: high share of night transactions.
+- `M0110` | score=84.8 | category=jewelry | city=Saint Petersburg | reasons: turnover is much higher than category-city peers; average ticket is unusually high; transaction count is unusually high; high share of night transactions.
+- `M0058` | score=78.2 | category=grocery | city=Moscow | reasons: turnover is much higher than category-city peers; average ticket is unusually high; transaction count is unusually high; high share of night transactions.
+- `M0016` | score=76.2 | category=restaurants | city=Moscow | reasons: turnover is much higher than category-city peers; average ticket is unusually high; transaction count is unusually high; high share of night transactions.
+- `M0079` | score=73.6 | category=online_services | city=Novosibirsk | reasons: turnover is much higher than category-city peers; average ticket is unusually high; transaction count is unusually high.
+- `M0090` | score=71.1 | category=travel | city=Novosibirsk | reasons: turnover is much higher than category-city peers; average ticket is unusually high; high share of night transactions.
 
 ## Top risky users
 

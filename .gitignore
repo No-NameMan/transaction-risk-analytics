@@ -5,3 +5,9 @@ __pycache__/
 .DS_Store
 
 data/processed/*.sqlite
+
+_review_bundle/
+_review_bundle.zip
+collect_review_bundle.py
+
+*.zip

@@ -61,30 +61,121 @@
                     category,
                     merchant_city
           ),
-          peer_comparison AS (
+          peer_stats AS (
              SELECT *,
-                    AVG(turnover) OVER (
+                    COUNT(*) OVER (
                     PARTITION BY category,
                               city
-                    ) AS peer_avg_turnover,
-                    AVG(tx_count) OVER (
+                    ) AS category_city_group_size,
+                    COUNT(*) OVER (
+                    PARTITION BY category
+                    ) AS category_group_size,
+                    1.0 * (
+                    SUM(turnover) OVER (
                     PARTITION BY category,
                               city
-                    ) AS peer_avg_tx_count,
-                    AVG(avg_ticket) OVER (
+                    ) - turnover
+                    ) / NULLIF(
+                    COUNT(*) OVER (
                     PARTITION BY category,
                               city
-                    ) AS peer_avg_ticket,
+                    ) - 1,
+                    0
+                    ) AS category_city_peer_avg_turnover,
+                    1.0 * (
+                    SUM(tx_count) OVER (
+                    PARTITION BY category,
+                              city
+                    ) - tx_count
+                    ) / NULLIF(
+                    COUNT(*) OVER (
+                    PARTITION BY category,
+                              city
+                    ) - 1,
+                    0
+                    ) AS category_city_peer_avg_tx_count,
+                    1.0 * (
+                    SUM(avg_ticket) OVER (
+                    PARTITION BY category,
+                              city
+                    ) - avg_ticket
+                    ) / NULLIF(
+                    COUNT(*) OVER (
+                    PARTITION BY category,
+                              city
+                    ) - 1,
+                    0
+                    ) AS category_city_peer_avg_ticket,
+                    1.0 * (
+                    SUM(turnover) OVER (
+                    PARTITION BY category
+                    ) - turnover
+                    ) / NULLIF(
+                    COUNT(*) OVER (
+                    PARTITION BY category
+                    ) - 1,
+                    0
+                    ) AS category_peer_avg_turnover,
+                    1.0 * (
+                    SUM(tx_count) OVER (
+                    PARTITION BY category
+                    ) - tx_count
+                    ) / NULLIF(
+                    COUNT(*) OVER (
+                    PARTITION BY category
+                    ) - 1,
+                    0
+                    ) AS category_peer_avg_tx_count,
+                    1.0 * (
+                    SUM(avg_ticket) OVER (
+                    PARTITION BY category
+                    ) - avg_ticket
+                    ) / NULLIF(
+                    COUNT(*) OVER (
+                    PARTITION BY category
+                    ) - 1,
+                    0
+                    ) AS category_peer_avg_ticket,
                     RANK() OVER (
                     PARTITION BY category,
                               city
                      ORDER BY turnover DESC
-                    ) AS turnover_rank_in_peer_group
+                    ) AS turnover_rank_in_category_city,
+                    RANK() OVER (
+                    PARTITION BY category
+                     ORDER BY turnover DESC
+                    ) AS turnover_rank_in_category
                FROM merchant_metrics
+          ),
+          effective_peers AS (
+             SELECT *,
+                    CASE
+                              WHEN category_city_group_size >= 4 THEN 'category_city_excluding_self'
+                              ELSE 'category_excluding_self'
+                    END AS peer_group_level,
+                    CASE
+                              WHEN category_city_group_size >= 4 THEN category_city_group_size - 1
+                              ELSE category_group_size - 1
+                    END AS peer_group_size,
+                    CASE
+                              WHEN category_city_group_size >= 4 THEN category_city_peer_avg_turnover
+                              ELSE category_peer_avg_turnover
+                    END AS peer_avg_turnover,
+                    CASE
+                              WHEN category_city_group_size >= 4 THEN category_city_peer_avg_tx_count
+                              ELSE category_peer_avg_tx_count
+                    END AS peer_avg_tx_count,
+                    CASE
+                              WHEN category_city_group_size >= 4 THEN category_city_peer_avg_ticket
+                              ELSE category_peer_avg_ticket
+                    END AS peer_avg_ticket
+               FROM peer_stats
           )
    SELECT merchant_id,
           category,
           city,
+          peer_group_level,
+          peer_group_size,
           tx_count,
           ROUND(turnover, 2) AS turnover,
           ROUND(avg_ticket, 2) AS avg_ticket,
@@ -107,6 +198,7 @@
           COALESCE(avg_ticket / NULLIF(peer_avg_ticket, 0), 0),
           4
           ) AS avg_ticket_peer_ratio,
-          turnover_rank_in_peer_group
-     FROM peer_comparison
+          turnover_rank_in_category_city,
+          turnover_rank_in_category
+     FROM effective_peers
  ORDER BY turnover_peer_ratio DESC;

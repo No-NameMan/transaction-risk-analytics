@@ -1,0 +1,19 @@
+object_type,object_id,rank,risk_score,risk_level,risk_reasons
+merchant,M0110,1,84.8,high,turnover is much higher than category-city peers; average ticket is unusually high; transaction count is unusually high; high share of night transactions
+merchant,M0058,2,78.2,high,turnover is much higher than category-city peers; average ticket is unusually high; transaction count is unusually high; high share of night transactions
+merchant,M0016,3,76.2,high,turnover is much higher than category-city peers; average ticket is unusually high; transaction count is unusually high; high share of night transactions
+merchant,M0079,4,73.6,high,turnover is much higher than category-city peers; average ticket is unusually high; transaction count is unusually high
+merchant,M0090,5,71.1,high,turnover is much higher than category-city peers; average ticket is unusually high; high share of night transactions
+merchant,M0080,6,69.1,high,turnover is much higher than category-city peers; average ticket is unusually high; high share of night transactions
+user,U00534,1,82.4,high,total amount is much higher than segment-city peers; transaction count is unusually high; burst-like daily activity; high share of night transactions; transactions across many merchants
+user,U00144,2,79.2,high,total amount is much higher than segment-city peers; transaction count is unusually high; transactions across many merchants
+user,U00066,3,79.0,high,total amount is much higher than segment-city peers; transaction count is unusually high; burst-like daily activity; transactions across many merchants; high declined transaction share
+user,U00393,4,76.4,high,total amount is much higher than segment-city peers; transaction count is unusually high; burst-like daily activity; high share of night transactions; transactions across many merchants
+user,U00210,5,76.2,high,total amount is much higher than segment-city peers; transaction count is unusually high; high share of night transactions; transactions across many merchants; high declined transaction share
+user,U00438,6,74.6,high,total amount is much higher than segment-city peers; transaction count is unusually high; transactions across many merchants
+user,U00143,7,70.7,high,total amount is much higher than segment-city peers; transaction count is unusually high; burst-like daily activity; high share of night transactions; transactions across many merchants
+user,U00265,8,70.5,high,total amount is much higher than segment-city peers; transaction count is unusually high; transactions across many merchants
+user,U00755,9,68.0,medium,total amount is much higher than segment-city peers; transaction count is unusually high; transactions across many merchants
+user,U00351,10,68.0,medium,transaction count is unusually high; burst-like daily activity; high share of night transactions; transactions across many merchants; high declined transaction share
+user,U00569,11,64.6,medium,transaction count is unusually high; burst-like daily activity; transactions across many merchants; high declined transaction share
+user,U00291,12,61.1,medium,transaction count is unusually high; burst-like daily activity; transactions across many merchants; high declined transaction share
