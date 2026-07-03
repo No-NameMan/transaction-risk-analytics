@@ -2,7 +2,7 @@
 
 A compact analytics project that simulates banking transactions and identifies suspicious users and merchants using SQL, pandas, exploratory data analysis, peer-group comparison, and a simple heuristic risk score.
 
-The project is designed as a GitHub-ready MVP for an analyst internship portfolio. It focuses on explainable business logic rather than complex machine learning.
+The project demonstrates an end-to-end analytical workflow: data generation, SQL-based metric calculation, exploratory analysis, peer-group comparison, risk scoring, and business interpretation.
 
 ## Project idea
 
